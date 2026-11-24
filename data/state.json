@@ -1006,7 +1006,7 @@
   },
   "clips": {},
   "email": {
-    "replies_at": "2026-11-24T13:34:12.839839+00:00"
+    "replies_at": "2026-11-24T14:30:15.108861+00:00"
   },
   "health": {
     "analytics": {
@@ -1029,7 +1029,10 @@
     "twitch:v2937412105",
     "twitch:v2939079066",
     "twitch:v2938058552",
-    "twitch:v2935891681"
+    "twitch:v2935891681",
+    "twitch:v2924632255",
+    "twitch:v1890479061",
+    "twitch:v1024920545"
   ],
   "pruned": [],
   "slot_plan": {
@@ -1039,7 +1042,7 @@
   },
   "slot_plan_mode": {},
   "spend": {
-    "2026-11-24": 0.1773
+    "2026-11-24": 0.1907
   },
   "streamers": {
     "Coachlim": {
