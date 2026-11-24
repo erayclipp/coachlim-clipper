@@ -37,7 +37,7 @@ def transcribe(wav, model, start=0.0, end=None, lenient=False):
                                       files={"file": (chunk.name, fh, "audio/mpeg")},
                                       data=[("model", model), ("response_format", "verbose_json"),
                                             ("timestamp_granularities[]", "word"),
-                                            ("timestamp_granularities[]", "segment"), ("language", "en")],
+                                            ("timestamp_granularities[]", "segment"), ("language", "de")],
                                       timeout=300)
             except requests.RequestException as e:   # dropped connection: same as a server hiccup
                 log.warning("Groq request failed (%s), retrying", e)
