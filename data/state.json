@@ -1,1 +1,16 @@
-{"processed_vods": [], "clips": {}, "posts": [], "pruned": []}
+{
+  "clips": {},
+  "email": {
+    "replies_at": "2026-11-24T10:33:42.321678+00:00"
+  },
+  "posts": [],
+  "processed_vods": [],
+  "pruned": [],
+  "slot_plan": {
+    "2026-11-24": [
+      "12:00"
+    ]
+  },
+  "slot_plan_mode": {},
+  "tiktok_paused": false
+}
