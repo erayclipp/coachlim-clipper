@@ -4,7 +4,12 @@
     "replies_at": "2026-11-24T10:33:42.321678+00:00"
   },
   "posts": [],
-  "processed_vods": [],
+  "preflight": {
+    "ok": "2026-11-24T11:04:37.304207+00:00"
+  },
+  "processed_vods": [
+    "twitch:v2937325230"
+  ],
   "pruned": [],
   "slot_plan": {
     "2026-11-24": [
@@ -12,5 +17,8 @@
     ]
   },
   "slot_plan_mode": {},
+  "spend": {
+    "2026-11-24": 0.0152
+  },
   "tiktok_paused": false
 }
