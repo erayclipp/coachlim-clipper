@@ -1027,7 +1027,8 @@
     "twitch:v2937650311",
     "twitch:v2938511694",
     "twitch:v2937412105",
-    "twitch:v2939079066"
+    "twitch:v2939079066",
+    "twitch:v2938058552"
   ],
   "pruned": [],
   "slot_plan": {
@@ -1037,7 +1038,7 @@
   },
   "slot_plan_mode": {},
   "spend": {
-    "2026-11-24": 0.0708
+    "2026-11-24": 0.1598
   },
   "streamers": {
     "Coachlim": {
