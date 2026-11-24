@@ -1,52 +1,23 @@
 # GTA clipper settings. Edit this file on GitHub to change behavior; the next run picks it up.
 
-timezone: America/Los_Angeles
-start_date: "2026-10-16"          # first day posting is allowed. Warming up on GTA V RP until GTA 6 (Nov 19).
+timezone: Europe/Berlin
+start_date: "2026-11-24"          # first day posting is allowed
 
 # Streamers to clip. Only add streamers whose clipping program you've joined.
 # platform: twitch | kick | youtube
 # facecam: optional crop of the webcam as fractions of the frame (x, y, w, h). Usually not needed: each clip's
 #          frames are checked and the webcam is found automatically. Streamers with a webcam get priority.
 streamers:
-  - name: xQc
+  - name: Coachlim
     platform: twitch
-    channel: xqc
+    channel: coachlim
     enabled: true
-    campaign: ""                  # optional note, e.g. the Whop campaign name
-  - name: Cinna
-    platform: twitch
-    channel: cinna
-    enabled: true
-  - name: vanillamace
-    platform: twitch
-    channel: vanillamace
-    enabled: true
-  - name: Burn                    # tested Nov 2: 1 of 3 at 7+, no webcam; #1 most-viewed GTA clip that week
-    platform: twitch
-    channel: burn
-    enabled: true
-  - name: youney                  # tested Nov 2: 1 of 4 at 7+, webcam; #2 most-viewed GTA clip that week
-    platform: twitch
-    channel: youney
-    enabled: true
-  - name: Lysium                  # paid campaign "Lysium/Benji Ramos Clips" ($1.50 per 1K views); rules from the brief:
-    platform: twitch
-    channel: lysium
-    enabled: true
-    campaign: "Lysium/Benji Ramos Clips"
-    title_match: "nopixel|\\bnp\\b|benji"   # NoPixel V streams only (Benji Ramos is his NoPixel character)
-    handle: "twitch.tv/Lysium"    # his handle on every clip and in every caption
-    preapproval: true             # each clip goes to the campaign as a draft first; never auto-posted
+    campaign: ""
     picker_notes: >-
-      Campaign rules: pick high-energy moments, which don't have to be loud or only funny (tense chases, clutch
-      escapes, big RP scenes count). No drama baiting: no hooks or titles that stir up beef or fake conflict.
-      Give context through the hook: it should tell a stranger what's going on (e.g. "Benji tried to sell the cops
-      their own car back"), since there's no separate context line.
-  - name: AnthonyZ
-    platform: twitch
-    channel: anthonyz
-    enabled: false                # no webcam, and mostly the same storylines as xQc
-    # facecam: {x: 0.72, y: 0.02, w: 0.26, h: 0.26}
+      Der Streamer spricht DEUTSCH und das Publikum ist deutsch. Schreibe Hook, TikTok-Caption, YouTube-Titel und
+      Beschreibung immer auf Deutsch, locker und jugendlich (z. B. "bro", "digga", "safe", "ehrenlos"), nie
+      übersetzt klingend. Coachlim ist Variety-Streamer: jedes Spiel und Just Chatting sind okay, nicht nur GTA.
+      Bevorzuge lustige Momente, Ausraster, Chaos und Reaktionen. Keine Story-Spoiler, kein Drama-Bait.
 
 # Extra source videos to process once (campaign-provided footage, a specific VOD, etc.).
 manual_urls: []
@@ -55,8 +26,8 @@ fetch:
   vods_per_streamer: 2            # newest N past broadcasts checked each run
   max_vod_hours: 30               # skip anything longer than this (xQc sometimes goes past 16h; only the audio is downloaded)
   max_vod_age_days: 3             # ignore old VODs
-  title_match: "gta|grand theft|nopixel|np ?v|roleplay|\\brp\\b|leonida|vice city"   # only clip streams whose title looks like GTA; set to "" to allow any
-  game_match: "grand theft auto|gta"   # on Twitch the stream's category must match this (checked before the title)
+  title_match: ""   # only clip streams whose title looks like GTA; set to "" to allow any
+  game_match: "."   # on Twitch the stream's category must match this (checked before the title)
 
 clip:
   # Short and complete for now: starts right before the action, ends right after the reaction.
@@ -87,7 +58,7 @@ posting:
   mode: email                     # email = you get an email with the clip + captions at each slot and post it yourself
                                   # blotato = the bot posts for you through Blotato (needs BLOTATO_API_KEY)
   platforms: [tiktok, youtube]
-  tiktok_paused_until: "2026-10-28"   # emails are YouTube only until this date (TikTok's few days off); "" = off
+  tiktok_paused_until: ""   # emails are YouTube only until this date (TikTok's few days off); "" = off
   # Posts per day per platform, ramping up as accounts age.
   ramp:
     - {from_day: 0, per_day: 1}
@@ -98,11 +69,11 @@ posting:
   adaptive_slots: true            # after enough data, shift slots toward hours that perform best (blotato mode)
   time_test:                      # email mode: try different posting times and keep the ones that get views fastest
     enabled: true
-    candidates: ["08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]   # Pacific
+    candidates: ["12:00", "14:00", "16:00", "17:00", "18:00", "19:00", "20:00", "22:00"]   # Berlin
     measure_hours: 3              # a post's result = its TikTok views this many hours after it went up
     min_samples: 2                # posts per time before it's judged
     min_gap_hours: 3              # two emails on the same day are at least this far apart
-  hashtags: ["#gta6", "#gtarp", "#gta", "#funny", "#fyp"]   # the streamer's tag is added automatically
+  hashtags: ["#twitch", "#deutsch", "#funny", "#fyp", "#viral"]   # the streamer's tag is added automatically
   label_ai_generated: false       # set true only if you add AI voiceover
 
 prune:
@@ -128,17 +99,17 @@ live:
   post_now_score: 8               # live clips scoring this or more post right away instead of waiting for a slot
   extra_posts_per_day: 1          # live posts allowed on top of the daily ramp
 
-weekly:                           # long YouTube video every Sunday: "GTA RP MOST VIEWED Twitch Clips of The Week! #N"
-  enabled: true                   # (becomes "GTA 6 ..." from launch day, starting again at #1)
+weekly:                           # long YouTube video every Sunday (off: built for English GTA clips)
+  enabled: false                   # (becomes "GTA 6 ..." from launch day, starting again at #1)
   weekday: 6                      # 0 = Monday ... 6 = Sunday
   hour: 9                         # local time it starts building (takes about 20 minutes)
   target_minutes: 10              # clips are added, most viewed first, until the video is about this long
   max_clips: 18
   min_clip_seconds: 10
-  languages: [EN]                 # only streams in these languages
+  languages: [DE]                 # only streams in these languages
 
-launch:                           # GTA 6 launch day: switches on by itself, nothing to edit on the day
-  enabled: true
+launch:                           # off: would swap in English GTA 6 streamers
+  enabled: false
   date: "2026-11-19"              # if it moves, reply "launch YYYY-MM-DD" to any bot email (or edit this)
   remind_days_before: 7           # email with the automatic-posting setup steps this many days before
   multiplier: 3                   # posts per day x3 from launch day when automatic posting (Blotato) is set up...
@@ -156,8 +127,8 @@ queue:                            # email mode only
   max_age_hours: 48               # clips older than this are dropped; fresh beats a big backlog
 
 accounts:                         # your pages; checked every hour to see which emailed clips you've posted
-  tiktok: wantedlevelclips8
-  youtube: wantedlevelclips8
+  tiktok: ""                      # TODO: dein TikTok-Name
+  youtube: ""                     # TODO: dein YouTube-Handle
 
 limits:
   claude_usd_per_day: 1.00        # no Claude calls after this much spend in a day (UTC); the next day starts fresh
