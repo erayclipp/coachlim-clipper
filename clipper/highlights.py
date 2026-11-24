@@ -77,7 +77,7 @@ The account owner's taste:
   Rejected: any hook that just repeats the streamer's own opinion (boring, nobody cares)"""
 
 JUDGE_PROMPT = """You pick moments from a livestream to post as short vertical clips on TikTok and YouTube Shorts.
-Streamer: {streamer}. Stream title: {title}. Game: GTA (GTA 6 when it is out).
+Streamer: {streamer}. Stream title: {title}. Game: whatever is on stream (variety streamer, any game or Just Chatting).
 
 Below are candidate windows. Each has an id, absolute start/end seconds, why it was flagged (viewers clipped it, chat
 burst out laughing, or it got loud), real chat messages from that moment when available, and the transcript with [Ns]
