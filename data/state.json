@@ -1033,7 +1033,12 @@
   },
   "slot_plan_mode": {},
   "spend": {
-    "2026-11-24": 0.0152
+    "2026-11-24": 0.0708
+  },
+  "streamers": {
+    "Coachlim": {
+      "facecam": true
+    }
   },
   "tiktok_paused": false
 }
