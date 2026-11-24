@@ -1023,7 +1023,11 @@
     "ok": "2026-11-24T11:04:37.304207+00:00"
   },
   "processed_vods": [
-    "twitch:v2937325230"
+    "twitch:v2937325230",
+    "twitch:v2937650311",
+    "twitch:v2938511694",
+    "twitch:v2937412105",
+    "twitch:v2939079066"
   ],
   "pruned": [],
   "slot_plan": {
