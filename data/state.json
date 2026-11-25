@@ -1199,10 +1199,13 @@
   "slot_plan_mode": {},
   "spend": {
     "2026-11-24": 0.2454,
-    "2026-11-25": 0.026
+    "2026-11-25": 0.0681
   },
   "streamers": {
     "Coachlim": {
+      "facecam": true
+    },
+    "lysium": {
       "facecam": true
     }
   },
