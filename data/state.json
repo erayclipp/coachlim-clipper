@@ -1,6 +1,6 @@
 {
   "alerts": {
-    "fail:analytics": "2026-11-27"
+    "fail:analytics": "2026-11-28"
   },
   "campaigns": {
     "500-gta-6__logo": {
@@ -723,6 +723,8 @@
   "campaigns_seen": {
     "2hollis__daisy": "2026-11-24",
     "500-gta-6__logo": "2026-11-25",
+    "500__logo": "2026-11-28",
+    "500__logo-2": "2026-11-28",
     "800-club-kam__clipping": "2026-11-24",
     "8lanco__every-little-thing": "2026-11-25",
     "abby-ai-app__clipping": "2026-11-24",
@@ -784,6 +786,7 @@
     "async__review-ai-video-editor-you-chat": "2026-11-26",
     "async__texting-ai": "2026-11-24",
     "athlete-performance-nutrition-inc__marco-penge-apn": "2026-11-25",
+    "atlas-grid-gaming__beat-my-geography-score": "2026-11-28",
     "atlas-grid__beat-my-geography-score": "2026-11-24",
     "audien-and-luke-aleksander__7-miles-high": "2026-11-25",
     "austin-millz__clipping": "2026-11-26",
@@ -820,6 +823,7 @@
     "betworld__clipping": "2026-11-24",
     "bexblu__music": "2026-11-24",
     "bia__luciano-we-on-go": "2026-11-26",
+    "bible-origins__bible-app-discovery": "2026-11-28",
     "big-fun-2026__switch-disco": "2026-11-24",
     "biianco__softcore-hardstyle-dropbox-reposts": "2026-11-25",
     "bikinis__clipping": "2026-11-24",
@@ -897,6 +901,7 @@
     "castle__logo": "2026-11-24",
     "ccc-io__crypto-casino-india": "2026-11-25",
     "cft__1000-views": "2026-11-24",
+    "changes__music": "2026-11-28",
     "charles-noonan-inc__first-property-challenge": "2026-11-25",
     "chart-ai__clipping": "2026-11-24",
     "cheatgpt__ugc": "2026-11-24",
@@ -958,6 +963,7 @@
     "cosplay-culture-debate__clipping": "2026-11-25",
     "coworker__clipping": "2026-11-24",
     "cozy-little-christmas__katy-perry": "2026-11-24",
+    "crazy-story-pt-3__king-von": "2026-11-28",
     "creatorlabs__scripted-paid-per-view": "2026-11-24",
     "crisppis__clipping": "2026-11-24",
     "crookbrown__wait-for-me-repository-reposts": "2026-11-25",
@@ -993,6 +999,7 @@
     "david-guetta__run-run-river-summer": "2026-11-24",
     "deals-finder__app": "2026-11-24",
     "deep-in-paris__lxnder": "2026-11-24",
+    "deepstory__exposed-by-exotic-xyz": "2026-11-28",
     "defaria-clipping-rewards__anything-from-lyrical-lemonade-tv-music": "2026-11-25",
     "defaria-clipping-rewards__york-nights-smokedope2016": "2026-11-24",
     "defuser-gg__mid-roll": "2026-11-27",
@@ -1105,6 +1112,7 @@
     "flight__clipping": "2026-11-24",
     "flip-master__clipping": "2026-11-24",
     "florence-robertson-youtube-channel__clipping": "2026-11-24",
+    "florrie__kissing-in-the-cold-movie-tv": "2026-11-28",
     "fly__shit-gucci-mane": "2026-11-24",
     "foku__productivity": "2026-11-24",
     "forest-slater__movie": "2026-11-25",
@@ -1146,6 +1154,7 @@
     "gattouz0__cs2": "2026-11-26",
     "gavin-gambles__slots": "2026-11-25",
     "german-captions__clipping": "2026-11-24",
+    "get-away__music": "2026-11-28",
     "goddard__lilies-anime-movie-tv-film-gaming": "2026-11-25",
     "goka__logo": "2026-11-24",
     "good-time__bbbogdan": "2026-11-24",
@@ -1478,6 +1487,7 @@
     "placements__late-checkout": "2026-11-24",
     "play-savvy-live__clipping": "2026-11-26",
     "play3__clipping": "2026-11-24",
+    "playerauctions__clipping": "2026-11-28",
     "playgurus__india": "2026-11-24",
     "playnaut-gg__ps5-giveaway": "2026-11-25",
     "plug-ai__clipping": "2026-11-26",
@@ -1672,6 +1682,7 @@
     "tom__clipping": "2026-11-26",
     "tony-huge__entertainment-podcast": "2026-11-24",
     "tony-rx__clipping": "2026-11-24",
+    "took-her-to-the-o__music": "2026-11-28",
     "tooter__ugc": "2026-11-26",
     "toppix-limited__attainify": "2026-11-24",
     "topps__clipping": "2026-11-25",
@@ -1692,6 +1703,7 @@
     "trench-runners__clipping": "2026-11-24",
     "trevor-wetzel__clipping": "2026-11-25",
     "tsu-nami-perfume__music": "2026-11-24",
+    "tungle__launch": "2026-11-28",
     "two-faced__music": "2026-11-25",
     "two-faced__purc": "2026-11-24",
     "two-faced__purc-2": "2026-11-27",
@@ -1707,6 +1719,7 @@
     "unbranded__movie-trailer": "2026-11-25",
     "unbranded__movie-trailer-2": "2026-11-24",
     "unbranded__music": "2026-11-26",
+    "unbranded__podcast": "2026-11-28",
     "unbranded__popular-meme": "2026-11-25",
     "unbranded__tv-show": "2026-11-25",
     "unbranded__ugc": "2026-11-24",
@@ -1728,6 +1741,7 @@
     "vavada__logo-4": "2026-11-27",
     "vavada__ugc": "2026-11-26",
     "velasco__clipping": "2026-11-24",
+    "venice-saints__take-the-whisky": "2026-11-28",
     "vent__noit": "2026-11-24",
     "version-beta-gana-con-elianny__clipping": "2026-11-26",
     "verttv__checking-inn-for-christmas-lifetime-sat-10-9c": "2026-11-26",
@@ -1763,6 +1777,7 @@
     "whiff__wellness": "2026-11-26",
     "who-do-u-know__slowed": "2026-11-24",
     "wicked__music": "2026-11-24",
+    "wifi-protect__free-one-click-vpn-for-windows": "2026-11-28",
     "will-clarke__dance-with-me-drive": "2026-11-25",
     "willie-oval__clipping": "2026-11-26",
     "winbit-casino__logo": "2026-11-24",
@@ -1811,13 +1826,13 @@
   },
   "health": {
     "analytics": {
-      "fails": 8,
+      "fails": 9,
       "last_error": "HTTPError: 410 Client Error: Gone for url: https://api.github.com/repos/erayclipp/coachlim-clipper/issues",
-      "last_fail": "2026-11-27T15:16:22.629259+00:00"
+      "last_fail": "2026-11-28T11:45:38.627903+00:00"
     }
   },
   "last_run": {
-    "analytics": "2026-11-27T15:16:15.861517+00:00"
+    "analytics": "2026-11-28T11:45:27.886680+00:00"
   },
   "posts": [],
   "preflight": {
