@@ -1826,13 +1826,13 @@
   },
   "health": {
     "analytics": {
-      "fails": 9,
+      "fails": 10,
       "last_error": "HTTPError: 410 Client Error: Gone for url: https://api.github.com/repos/erayclipp/coachlim-clipper/issues",
-      "last_fail": "2026-11-28T11:45:38.627903+00:00"
+      "last_fail": "2026-11-28T15:03:57.868139+00:00"
     }
   },
   "last_run": {
-    "analytics": "2026-11-28T11:45:27.886680+00:00"
+    "analytics": "2026-11-28T15:03:51.888044+00:00"
   },
   "posts": [],
   "preflight": {
